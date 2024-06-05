@@ -33,7 +33,7 @@ function App() {
    return (
       <Container>
          <ToDolist>
-            <Input value={inputTask} onChange={inputMudou} placeholder="Digite Aqui..." />
+            <Input value={inputTask} onChange={inputMudou} placeholder="O que tenho pra fazer..." />
             <Button onClick={cliqueiNoBotao}>Adicionar</Button>
             <ul>
                {
